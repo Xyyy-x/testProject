@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
-	var proxy1 = "PROXY 192.168.6.6:6666";
-	var proxy2 = "PROXY 222.22.66.222:6666";
+	var proxy1 = "PROXY 127.0.0.1:8887";
+	var proxy2 = "PROXY 127.0.0.1:8888";
 	
     //本地地址直接连接
 	if (isPlainHostName(host)) {
