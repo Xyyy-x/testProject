@@ -8,11 +8,11 @@ function FindProxyForURL(url, host) {
     }
 	// 代理1
 	if (shExpMatch(url, "*wps.cn**")) {
-        return proxy2;
+        return proxy1;
     }
 	// 代理2
 	if (shExpMatch(url, "*csdn.com*")) {
 	   return proxy1;
 	}
-    return proxy1;
+    return proxy2;
 }
