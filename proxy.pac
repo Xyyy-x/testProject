@@ -14,5 +14,5 @@ function FindProxyForURL(url, host) {
 	if (shExpMatch(url, "*csdn.com*")) {
 	   return proxy2;
 	}
-    return proxy2;
+    return proxy1;
 }
